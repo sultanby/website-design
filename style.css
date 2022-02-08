@@ -4,9 +4,10 @@ html, body {
 }
 
 header {
-    background-color: aqua;
+    background-color: rgb(246,189,96);
     width: 100%;
     position: fixed;
+    top: 0px;
 }
 
 nav ul {
@@ -18,12 +19,49 @@ nav li {
     padding-right: 20px;
 }
 
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover{
+    color: rgb(247, 237, 226);
+}
+
 main {
     position: relative;
     top: 50px;
 }
 
 h1 {
-    color: blueviolet;
+    color: rgb(132, 165, 157);
     text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.color-block {
+    display: inline-block;
+    width: 18%;
+    height: 450px;
+}
+
+.yellow {
+    background-color: rgb(246, 189, 96);
+}
+
+.linen {
+    background-color: RGB(247, 237, 226);
+}
+
+.pink {
+    background-color: RGB(245, 202, 195);
+}
+
+.blue {
+    background-color: RGB(132, 165, 157);
+}
+
+.coral {
+    background-color: RGB(242, 132, 130);
 }
