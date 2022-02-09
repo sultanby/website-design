@@ -6,12 +6,13 @@
 @font-face {
     font-family: Bolkit;
     src: url(resources/fonts/bolkit/BolkitRayek.otf);
-  }
+}
 
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Valery', sans-serif;
+
+    font-family: 'Barlow', sans-serif;
 }
 
 header {
@@ -49,17 +50,37 @@ h1 {
     color: rgb(132, 165, 157);
     text-align: center;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 80px;
+    font-family: 'Valery', sans-serif;
 }
 
 h2 {
     text-align: center;
     color: rgb(132, 165, 157);
+    font-size: 50px;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 20px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(247, 237, 226);
+}
+
+p {
+    font-size: 25px;
 }
 
 .container {
-    margin: 40px 150px;
-    padding: 10px 10px;
+    margin: 40px 170px;
+    padding: 30px 30px;
+    border: 4px solid rgb(247, 237, 226);
+    border-radius: 30px;
+}
+
+.container-inside {
+    text-align: center;
 }
 
 .color-block {
@@ -78,6 +99,11 @@ h2 {
     font-size: 20px;
     font-weight: 400;
 }
+
+.font-box {
+    padding: 20px;
+}
+
 
 .yellow {
     background-color: rgb(246, 189, 96);
@@ -98,3 +124,18 @@ h2 {
 .coral {
     background-color: rgb(242, 132, 130);
 }
+
+.valery {
+    font-family: Valery, serif;
+}
+
+.bolkit {
+    font-family: Bolkit, serif;
+    font-weight: 700;
+}
+
+.open-sans-condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
